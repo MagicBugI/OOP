@@ -29,4 +29,4 @@ const worker3 = new Worker("Andy Ander", 29, 23);
 worker3.experience = 1.5;
 
 instancesList.sort((a , b) => a.showSalaryWithExperience()- b.showSalaryWithExperience())
-.map(e=>console.log(e.showSalaryWithExperience()));
+.map(e=>console.log(e.fullName + " : " + e.showSalaryWithExperience()));
